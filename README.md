@@ -1,16 +1,9 @@
-# Truthseeker Analysis Project
+# Truthseeker Analysis Project (Java)
 
 ## Overview
-This project focuses on analyzing the Truthseeker dataset to achieve high classification accuracy using traditional ML and deep neural networks (BERT).
-
-## File Structure
-- **data/**: Contains datasets.
-- **notebooks/**: Jupyter notebooks for EDA and model training.
-- **scripts/**: Python scripts for preprocessing, training, and evaluation.
-- **results/**: Contains metrics and figures from model evaluations.
+Analyze the Truthseeker dataset using traditional ML and BERT fine-tuning in Java.
 
 ## How to Run
-1. Clone this repository.
-2. Install dependencies:
+1. Compile the code:
    ```bash
-   pip install -r requirements.txt
+   javac -cp weka.jar src/**/*.java -d bin
