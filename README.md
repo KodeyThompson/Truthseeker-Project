@@ -6,4 +6,6 @@ Analyze the Truthseeker dataset using traditional ML and BERT fine-tuning in Jav
 ## How to Run
 1. Compile the code:
    ```bash
-   javac -cp weka.jar src/**/*.java -d bin
+pip install -r requirements.txt
+
+python script_name.py
